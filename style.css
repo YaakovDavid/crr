@@ -1,0 +1,16 @@
+img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 700px) {
+  .section-height {
+    min-height: 500px;
+  }
+}
